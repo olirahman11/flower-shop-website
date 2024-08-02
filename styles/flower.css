@@ -1,0 +1,51 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+
+/* common styles */
+
+.btn-primary {
+    border-radius: 8px;
+    background: rgb(229, 84, 115);
+    padding: 20px 40px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* banner container start */
+.header {
+    background: rgba(229, 84, 115, 0.1);
+}
+
+.banner-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-img {
+    margin-top: 115px;
+    margin-right: 240px;
+    background-position: right bottom;
+    
+}
+
+.banner-title {
+    color: rgb(39, 39, 39);
+    font-size: 80px;
+    font-weight: 800;
+    margin-bottom: 32px;
+}
+
+.banner-description {
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 32px;
+}
+.banner-text{
+    margin: 197px 97px 147px 240px;
+}
