@@ -85,7 +85,7 @@ body {
 .featured-box {
     display: flex;
     justify-content: center;
-    
+
 }
 
 .box-1 {
@@ -93,34 +93,54 @@ body {
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
     padding: 70px 38px 0px 36px;
-    /* margin-right: 24px; */
+    margin-right: 24px;
 }
 
-.featured-box figure {
-    width: 310px;
-    height: 428px;
-}
+
 
 .box-2 {
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
     padding: 77px 7px 52px 7px;
-    /* margin-right: 24px; */
+    margin-right: 24px;
 }
 
 .box-3 {
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
     padding: 27px 35px 0px 35px;
-    /* margin-right: 24px; */
+    margin-right: 24px;
 }
 
 .caption {
     text-align: center;
-    padding-left: 90px;
+    /* padding-left: 90px; */
     color: rgb(39, 39, 39);
-    font-family: Lato;
     font-size: 24px;
     font-weight: 700;
     text-decoration: underline;
+}
+
+
+/* customer-container */
+
+.customer-container {
+    margin-top: 130px ;
+    
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    justify-content: center;
+}
+.boxes{
+    margin-right: 100px;
+    text-align: center;
+    
+}
+.boxes-1{
+    text-align: center;
+    margin-right: 0px;
+}
+.boxes-container{
+    padding: 75px 165px;
+    display: flex;
 }
