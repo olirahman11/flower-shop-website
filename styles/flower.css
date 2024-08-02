@@ -29,7 +29,7 @@ body {
     margin-top: 115px;
     margin-right: 240px;
     background-position: right bottom;
-    
+
 }
 
 .banner-title {
@@ -46,6 +46,81 @@ body {
     margin-top: 0px;
     margin-bottom: 32px;
 }
-.banner-text{
+
+.banner-text {
     margin: 197px 97px 147px 240px;
+}
+
+/* banner section completed */
+
+/* our featured flower section started */
+
+.main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.featured-container {
+    margin-top: 178px;
+}
+
+.featured-text {
+    text-align: center;
+}
+
+.featured-title {
+    color: rgb(39, 39, 39);
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+
+.featured-description {
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.featured-box {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.box-1 {
+
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 70px 38px 0px 36px;
+    /* margin-right: 24px; */
+}
+
+.featured-box figure {
+    width: 310px;
+    height: 428px;
+}
+
+.box-2 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 77px 7px 52px 7px;
+    /* margin-right: 24px; */
+}
+
+.box-3 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 27px 35px 0px 35px;
+    /* margin-right: 24px; */
+}
+
+.caption {
+    text-align: center;
+    padding-left: 90px;
+    color: rgb(39, 39, 39);
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: underline;
 }
