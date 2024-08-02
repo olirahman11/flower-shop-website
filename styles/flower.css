@@ -125,22 +125,63 @@ body {
 /* customer-container */
 
 .customer-container {
-    margin-top: 130px ;
-    
+    margin-top: 130px;
+
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
     justify-content: center;
 }
-.boxes{
+
+.boxes {
     margin-right: 100px;
     text-align: center;
-    
+
 }
-.boxes-1{
+
+.boxes-1 {
     text-align: center;
     margin-right: 0px;
 }
-.boxes-container{
+
+.boxes-container {
     padding: 75px 165px;
     display: flex;
 }
+
+
+/* customer-container started */
+.discount-container{
+    display: flex;
+    justify-content: space-between;
+    background: rgba(229, 84, 115, 0.05);
+    margin-top: 130px;
+}
+.customer-title {
+    color: rgb(39, 39, 39);
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.golapi-color {
+    color: rgb(229, 84, 115);
+}
+
+.customer-description {
+    color: rgba(39, 39, 39, 0.6); 
+    font-size: 18px;
+    font-weight: 400;
+}
+.customer-info{
+    text-align: center;
+    margin: 180px 0px 100px 395px;
+}
+.customer-image img{
+    border: 5px dashed rgba(124, 124, 124, 0.6);
+    margin: 100px 429px 100px 0px;
+}
+.customer-description{
+    margin-bottom: 32px;
+}
+
+
+/* discount container completed */
