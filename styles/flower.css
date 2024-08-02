@@ -150,12 +150,13 @@ body {
 
 
 /* customer-container started */
-.discount-container{
+.discount-container {
     display: flex;
     justify-content: space-between;
     background: rgba(229, 84, 115, 0.05);
     margin-top: 130px;
 }
+
 .customer-title {
     color: rgb(39, 39, 39);
     font-size: 40px;
@@ -167,21 +168,89 @@ body {
 }
 
 .customer-description {
-    color: rgba(39, 39, 39, 0.6); 
+    color: rgba(39, 39, 39, 0.6);
     font-size: 18px;
     font-weight: 400;
 }
-.customer-info{
+
+.customer-info {
     text-align: center;
     margin: 180px 0px 100px 395px;
 }
-.customer-image img{
+
+.customer-image img {
     border: 5px dashed rgba(124, 124, 124, 0.6);
     margin: 100px 429px 100px 0px;
 }
-.customer-description{
+
+.customer-description {
     margin-bottom: 32px;
 }
 
 
 /* discount container completed */
+
+/* instagram section started from here */
+
+.insta-title {
+    color: rgb(39, 39, 39);
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.insta-description {
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+.insta-info {
+    text-align: center;
+}
+
+.instagram {
+    margin-top: 130px;
+}
+
+.instagram-images img {
+    margin-right: 15px;
+}
+
+
+/*  instagram section completed successfully*/
+
+.deals {
+    background-image: url('/Rectangle\ 9.png');
+    margin-top: 130px;
+}
+
+.deals-info {
+    text-align: center;
+}
+
+.deals-input {
+    text-align: center;
+}
+
+.deals-title {
+    padding-top: 120px;
+    color: rgb(39, 39, 39);
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+
+.deals-description {
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 18px;
+    font-weight: 400;
+}
+.inp{
+    padding: 23px 500px 22px 22px;
+    border: none;
+    border-radius: 8px;
+    margin-right: 16px;
+    margin-bottom: 120px
+}
